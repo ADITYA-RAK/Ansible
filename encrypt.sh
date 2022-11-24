@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
 read string
-echo $string | base64
+echo -n $string | base64
